@@ -19,6 +19,7 @@ export default function StateInFunCompo() {
     )
 }
 //notes:: How to use State
+// useState is a one type of hooks ,its allows or maintaines permision in  states
 //import usestate from react 
 //const [data, setData] = useState(0) 0 is initial value here data is only name you can choose any name
 //define a function like update data also update data is only name  where use inside of button onclick function
