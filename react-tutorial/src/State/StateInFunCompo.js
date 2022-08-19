@@ -20,8 +20,9 @@ export default function StateInFunCompo() {
 }
 //notes:: How to use State
 //import usestate from react 
-//const [data, setData] = useState(0) 0 is initial value
-//define a function like update data
+//const [data, setData] = useState(0) 0 is initial value here data is only name you can choose any name
+//define a function like update data also update data is only name  where use inside of button onclick function
+//after that above in button firstly you can  import data like  h1 tag
 //once you define a function after that you can use this function in button  on click event
 
 //Why we are use state?
