@@ -1,5 +1,4 @@
-import React from 'react'
-import {useState} from 'react'
+import React,{useState} from 'react'
 
 
 export default function StateInFunCompo() {
@@ -8,9 +7,8 @@ export default function StateInFunCompo() {
         setData(data + 1)
 
     }
-    console.warn("______");
     return (
-        <div>
+        <div  style={{backgroundColor:"lightgreen",margin:20}}>
 
             <h1>{data}</h1>
             <button onClick={updateData}>Update Data</button>

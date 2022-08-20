@@ -13,7 +13,7 @@ class  UseStateClass extends Component {
         }
     }
     
-    JsxElement(){
+     JsxElement(){
         this.setState({data1:"Update this data with help of state in class component"})
     }
     Contineusly(){
@@ -27,7 +27,7 @@ class  UseStateClass extends Component {
     }
     render(){
         return (
-            <div>
+            <div style={{backgroundColor:"green",margin:20}}>
             
               <h1> this is h1 tag and here import data1 is ---{this.state.data1}</h1>
               <button onClick={()=>this.JsxElement()}> Update Data</button>

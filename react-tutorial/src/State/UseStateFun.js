@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-export default function UseState() {
+export default function UseStateFun() {
     const[data,setData]=useState("Dipak ")
     const[Data1,setData1]=useState("My Details is  ")
     const[data2,setData2]=useState("My Mobile No is  ")
@@ -28,7 +28,7 @@ function Future(){
 
 
   return (
-    <div>
+    <div style={{backgroundColor:"Skyblue",margin:20}}>
       <h1>{data}</h1>
 <button onClick={AddMe}>Add My Title</button>
 <h1>{Data1}</h1>

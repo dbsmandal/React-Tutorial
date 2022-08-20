@@ -15,7 +15,7 @@ function ClickEvent() {
         alert(data);
     }
     return (
-      <div className="App">
+      <div className="App"  style={{backgroundColor:"Skyblue",margin:20}}>
        <h1>{data}</h1>
        <button onClick={Click}>Click Me</button>
        <br />
