@@ -1,16 +1,22 @@
 import './App.css';
 import ClickEvent from './ClickEvent10/ClickEvent';
 import StateInFunCompo from './State/StateInFunCompo';
+import UseStateClass from './State/UseStateClass';
 import UseStateFun from './State/UseStateFun';
-
 function App() {
   return (
-  <>
-  <ClickEvent/>
+  <><div><ClickEvent/></div>
+  
   <br />
-  <StateInFunCompo/>
+  <div className='function-state'> <StateInFunCompo/>
   <br />
   <UseStateFun/>
+  <StateInFunCompo/>
+  </div>
+ <div className="classCompo-State">
+<UseStateClass/>
+ </div>
+
   
   </>
   );
