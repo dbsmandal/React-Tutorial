@@ -5,6 +5,7 @@ import StateInFunCompo from './State/StateInFunCompo';
 import UseStateClass from './State/UseStateClass';
 import UseStateFun from './State/UseStateFun';
 import FunPropsBtnClick from './Props/FunPropsBtnClick'
+import ClassProps from './Props/ClassProps';
 function App() {
   return (
   <><div>
@@ -25,6 +26,9 @@ function App() {
  </div>
  <div className="FunProps-mulple-data">
   <FunPropsBtnClick/>
+ </div>
+ <div className="classProps">
+  <ClassProps/>
  </div>
 
   
