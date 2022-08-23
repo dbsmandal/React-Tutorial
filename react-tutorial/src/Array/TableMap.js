@@ -21,7 +21,7 @@ export default function TableMap() {
             Name: 'Akshay Bunny',
             Email: 'Akshay@gmial.com',
             Contact: '6945875214'
-        },
+        }
 
     ]
 
@@ -30,8 +30,8 @@ export default function TableMap() {
             <div>
                 <h1>Handle Array With List</h1>
                 {
-                    students.map((dbs) =>
-                        <div style={{ backgroundColor: "skyblue" }}>
+                    students.map((dbs,p) =>
+                        <div key={p} style={{ backgroundColor: "skyblue" }}>
                             <h2>Name: {dbs.Name}</h2>
                             <h2>Email:{dbs.Email}</h2>
                             <h2>Contact:{dbs.Contact}</h2>
@@ -42,15 +42,16 @@ export default function TableMap() {
             <div>
                 <h1>Handle Array With List create a table </h1>
                 <table border={2} style={{ backgroundColor: "skyblue" }}>
+                    <tbody>
                 <tr>
                     <td>Name</td>
                     <td>Email</td>
                     <td>Contact No </td>
-                    </tr>
+                </tr>
 
                     {
-                        students.map((dbs) =>
-                            <tr>
+                        students.map((dbs,k) =>
+                            <tr key={k}>
                                 <td>{dbs.Name}</td>
                                 <td>{dbs.Email}</td>
                                 <td>{dbs.Contact}</td>
@@ -58,6 +59,7 @@ export default function TableMap() {
                             </tr>
                         )
                     }
+                    </tbody>
                 </table>
 
             </div>
