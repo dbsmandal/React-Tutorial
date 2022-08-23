@@ -2,8 +2,8 @@ import React,{useEffect,useState} from 'react'
 
 
 export default function UseEfectWithCondition() {
-    const[data,setData]=useState(10);
-    const[count,setCount]=useState(0);
+    const[data,setData]=useState(100);
+    const[count,setCount]=useState(100);
     useEffect(()=>{
 console.warn("data is called")
     },[data])
