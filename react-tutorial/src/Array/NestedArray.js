@@ -120,6 +120,7 @@ export default function NestedArray() {
                 <Table style={{backgroundColor:"skyblue" ,border:"2px solid yellow"}}>
                     <tbody>
                     <tr>
+                          
                             <td>Police Station</td>
                             <td>District</td>
                             <td>City</td>

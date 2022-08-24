@@ -4,6 +4,7 @@ import Main1 from './Use Efect/Main1';
 import TableMap from './Array/TableMap';
 import TableBoots from './Array/TableBoots';
 import NestedArray from './Array/NestedArray';
+import ReactFragment from './ReactFragment/ReactFragment';
 function App() {
   return (
   <>
@@ -21,6 +22,9 @@ function App() {
   </div>
   <div>
     <NestedArray/>
+  </div>
+  <div>
+    <ReactFragment/>
   </div>
   </>
   );
