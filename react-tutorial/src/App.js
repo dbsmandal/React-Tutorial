@@ -6,6 +6,7 @@ import TableBoots from './Array/TableBoots';
 import NestedArray from './Array/NestedArray';
 import ReactFragment from './ReactFragment/ReactFragment';
 import Parent from './Lifitng_State_Up/Parent';
+import User1 from './Pure Component/User1';
 function App() {
   return (
   <>
@@ -29,6 +30,9 @@ function App() {
   </div>
   <div>
   <Parent/>
+  </div>
+  <div>
+<User1/>
   </div>
   </>
   );
