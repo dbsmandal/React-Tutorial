@@ -5,6 +5,7 @@ import TableMap from './Array/TableMap';
 import TableBoots from './Array/TableBoots';
 import NestedArray from './Array/NestedArray';
 import ReactFragment from './ReactFragment/ReactFragment';
+import Parent from './Lifitng_State_Up/Parent';
 function App() {
   return (
   <>
@@ -25,6 +26,9 @@ function App() {
   </div>
   <div>
     <ReactFragment/>
+  </div>
+  <div>
+  <Parent/>
   </div>
   </>
   );
