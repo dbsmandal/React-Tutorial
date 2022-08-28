@@ -1,39 +1,30 @@
+import React from 'react';
 import './App.css';
-import UseEfectWithCondition from './Use Efect/UseEfectWithCondition';
-import Main1 from './Use Efect/Main1';
-import TableMap from './Array/TableMap';
-import TableBoots from './Array/TableBoots';
-import NestedArray from './Array/NestedArray';
-import ReactFragment from './ReactFragment/ReactFragment';
-import Parent from './Lifitng_State_Up/Parent';
-import User1 from './Pure Component/User1';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar  from './Component/Navbar/Navbar';
+import Home from "./Component/Pages/Home"
+import About from "./Component/Pages/About"
+import Error from "./Component/Pages/Error"
+
+
 function App() {
   return (
   <>
-  <div>
-    <UseEfectWithCondition/>
- </div>
-<div>
-<Main1/>
-</div>
-<div className="map">
-  <TableMap/>
-</div>
-  <div>
-    <TableBoots/>
+  <div className="apps">
+  <BrowserRouter>
+  <Navbar/>
+  <Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/*' element={<Error/>}/>
+
+
+
+  </Routes>
+  </BrowserRouter>
   </div>
-  <div>
-    <NestedArray/>
-  </div>
-  <div>
-    <ReactFragment/>
-  </div>
-  <div>
-  <Parent/>
-  </div>
-  <div>
-<User1/>
-  </div>
+ 
+ 
   </>
   );
 }
